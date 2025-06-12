@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Gonzalo Belloso - Desarrollador Web</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importación de Google Fonts para tipografía profesional -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Iconos de Font Awesome para elementos visuales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header simplificado para páginas internas -->
+    <header class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-mini">
+                    <img src="./images/FotoCarnet.jpg" alt="Gonzalo Belloso" class="profile-mini-img">
+                    <div class="profile-mini-text">
+                        <h1>Gonzalo Belloso</h1>
+                        <p>Desarrollador Web Full Stack</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <a href="proyectos.html" class="btn btn-secondary">
+                        <i class="fas fa-code"></i> Ver Proyectos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegación principal -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-tabs">
+                <li><a href="index.html" class="nav-link">
+                    <i class="fas fa-user"></i> Sobre Mí
+                </a></li>
+                <li><a href="experiencia.html" class="nav-link">
+                    <i class="fas fa-briefcase"></i> Experiencia
+                </a></li>
+                <li><a href="educacion.html" class="nav-link">
+                    <i class="fas fa-graduation-cap"></i> Educación
+                </a></li>
+                <li><a href="proyectos.html" class="nav-link">
+                    <i class="fas fa-project-diagram"></i> Proyectos
+                </a></li>
+                <li><a href="contacto.html" class="nav-link active">
+                    <i class="fas fa-phone"></i> Contacto
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal de contacto -->
+    <main class="main-content">
+        <div class="container">
+            <!-- IMPORTANTE: Agregar la clase 'active' aquí -->
+            <section class="content-section active">
+                <div class="section-header">
+                    <h2 class="section-title">Contacto</h2>
+                    <div class="section-line"></div>
+                    <p class="section-subtitle">
+                        ¿Tienes un proyecto en mente? ¿Buscas un desarrollador para tu equipo? 
+                        ¡Me encantaría escuchar de ti!
+                    </p>
+                </div>
+
+                <!-- Contenedor principal de contacto -->
+                <div class="contact-container">
+                    <!-- Información de contacto -->
+                    <div class="contact-info">
+                        <h3>¡Hablemos!</h3>
+                        <p>
+                            Estoy disponible para oportunidades de prácticas, proyectos colaborativos, 
+                            freelance o cualquier consulta sobre desarrollo web. Siempre dispuesto a 
+                            nuevos desafíos y aprendizaje continuo.
+                        </p>
+
+                        <!-- Métodos de contacto -->
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <span>gonzalo.belloso.01@gmail.com</span>
+                                    <small>Respuesta en 24 horas</small>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div class="contact-details">
+                                    <h4>Teléfono</h4>
+                                    <span>+34 674 346 147</span>
+                                    <small>Disponible de 9:00 a 18:00</small>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin"></i>
+                                <div class="contact-details">
+                                    <h4><span><a href="https://www.linkedin.com/in/gonzalo-belloso-sanchez/" target="_blank">LinkedIn</a></span></h4>
+                                    <small>Perfil profesional</small>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fab fa-github"></i>
+                                <div class="contact-details">
+                                    <h4><span><a href="https://github.com/GonzaloBS01" target="_blank" rel="noopener noreferrer">GitHub</a></span></h4>
+                                    <small>Repositorios y código</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Disponibilidad -->
+                        <div class="availability-status">
+                            <div class="status-indicator">
+                                <span class="status-dot available"></span>
+                                <span class="status-text">Disponible para nuevos proyectos</span>
+                            </div>
+                            <p>Actualmente buscando oportunidades de prácticas y proyectos freelance.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Formulario de contacto -->
+                    <form class="contact-form" action="#" method="POST">
+                        <h3>Envía un mensaje</h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nombre-contacto">Nombre *</label>
+                                <input type="text" id="nombre-contacto" name="nombre" required 
+                                       placeholder="Tu nombre completo">
+                            </div>
+                            <div class="form-group">
+                                <label for="email-contacto">Email *</label>
+                                <input type="email" id="email-contacto" name="email" required 
+                                       placeholder="tu.email@ejemplo.com">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" 
+                                       placeholder="+34 123 456 789">
+                            </div>
+                            <div class="form-group">
+                                <label for="empresa">Empresa</label>
+                                <input type="text" id="empresa" name="empresa" 
+                                       placeholder="Nombre de tu empresa">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="asunto">Asunto *</label>
+                            <select id="asunto" name="asunto" required>
+                                <option value="">Selecciona un asunto</option>
+                                <option value="proyecto">Proyecto de desarrollo</option>
+                                <option value="practicas">Oportunidad de prácticas</option>
+                                <option value="colaboracion">Colaboración</option>
+                                <option value="freelance">Trabajo freelance</option>
+                                <option value="consulta">Consulta técnica</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensaje-contacto">Mensaje *</label>
+                            <textarea id="mensaje-contacto" name="mensaje" rows="6" required 
+                                      placeholder="Cuéntame sobre tu proyecto o idea. ¿En qué puedo ayudarte?"></textarea>
+                        </div>
+
+                        <!-- Checkbox de privacidad -->
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="privacidad" name="privacidad" required>
+                                <span class="checkmark"></span>
+                                He leído y acepto la <a href="#" target="_blank">política de privacidad</a>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <i class="fas fa-paper-plane"></i> 
+                            <span>Enviar Mensaje</span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- FAQ Section -->
+                <div class="faq-section">
+                    <h3>Preguntas Frecuentes</h3>
+                    <div class="faq-grid">
+                        <div class="faq-item">
+                            <h4><i class="fas fa-clock"></i> ¿Cuál es tu tiempo de respuesta?</h4>
+                            <p>Normalmente respondo a los emails en menos de 24 horas durante días laborables.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4><i class="fas fa-code"></i> ¿Qué tipo de proyectos manejas?</h4>
+                            <p>Ahora mismo estoy abierto a todo tipo de proyectos, ya que busco adquirir conocimiento.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4><i class="fas fa-graduation-cap"></i> ¿Estás buscando prácticas?</h4>
+                            <p>Actualmente estoy buscando oportunidades de prácticas para completar mi formación DAW.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Gonzalo Belloso. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/gonzalo-belloso-sanchez/" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/GonzaloBS01" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:gonzalo.belloso.01@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

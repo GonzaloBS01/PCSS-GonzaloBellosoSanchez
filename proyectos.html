@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos - Gonzalo Belloso - Desarrollador Web</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importación de Google Fonts para tipografía profesional -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Iconos de Font Awesome para elementos visuales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header simplificado para páginas internas -->
+    <header class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-mini">
+                    <img src="./images/FotoCarnet.jpg" alt="Gonzalo Belloso" class="profile-mini-img">
+                    <div class="profile-mini-text">
+                        <h1>Gonzalo Belloso</h1>
+                        <p>Desarrollador Web Full Stack</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <a href="contacto.html" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Contactar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegación principal -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-tabs">
+                <li><a href="index.html" class="nav-link">
+                    <i class="fas fa-user"></i> Sobre Mí
+                </a></li>
+                <li><a href="experiencia.html" class="nav-link">
+                    <i class="fas fa-briefcase"></i> Experiencia
+                </a></li>
+                <li><a href="educacion.html" class="nav-link">
+                    <i class="fas fa-graduation-cap"></i> Educación
+                </a></li>
+                <li><a href="proyectos.html" class="nav-link active">
+                    <i class="fas fa-project-diagram"></i> Proyectos
+                </a></li>
+                <li><a href="contacto.html" class="nav-link">
+                    <i class="fas fa-phone"></i> Contacto
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal de proyectos -->
+    <main class="main-content">
+        <div class="container">
+            <section class="content-section active">
+                <div class="section-header">
+                    <h2 class="section-title">Proyectos Destacados</h2>
+                    <div class="section-line"></div>
+                    <p class="section-subtitle">
+                        Una muestra de mis trabajos más significativos en desarrollo web, 
+                        desde proyectos personales hasta ejercicios académicos avanzados.
+                    </p>
+                </div>
+
+                <!-- Grid de proyectos -->
+                <div class="projects-grid">
+                    <!-- Proyecto Kátodo Ciberjoyería -->
+                    <div class="project-card featured">
+                        <div class="project-image">
+                            <img src="../01-DemuestraLoQueSabes/img/logoKatodo.jpg" alt="Kátodo Ciberjoyería">
+                            <div class="project-overlay">
+                                <a href="../01-DemuestraLoQueSabes/index.html" target="_blank" class="project-link" title="Ver proyecto">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/gonzalobelloso/katodo-ciberjoyeria" target="_blank" class="project-code" title="Ver código">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-badge">Proyecto Principal</span>
+                            <h3>Kátodo Ciberjoyería</h3>
+                            <p>
+                                Sitio web completo para tienda de joyería artesanal sostenible. 
+                                Incluye catálogo de productos, formularios de contacto personalizados 
+                                y diseño completamente responsive. Desarrollado con enfoque en 
+                                sostenibilidad y diseño moderno.
+                            </p>
+                            <div class="project-features">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Diseño responsive multiplataforma</li>
+                                    <li><i class="fas fa-check"></i> Formularios de personalización</li>
+                                    <li><i class="fas fa-check"></i> Navegación intuitiva</li>
+                                    <li><i class="fas fa-check"></i> Integración con redes sociales</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Responsive Design</span>
+                                <span class="tech-tag">UX/UI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto Currículum Online -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Currículum Online Modular</h3>
+                            <p>
+                                Currículum web moderno con diseño responsive y arquitectura modular. 
+                                Desarrollado únicamente con HTML5 y CSS3, demostrando dominio 
+                                completo de estas tecnologías fundamentales.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">Responsive</span>
+                                <span class="tech-tag">Modular</span>
+                                <span class="tech-tag">Semántico</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sección de tecnologías utilizadas -->
+                <div class="technologies-section">
+                    <h3>Tecnologías y Herramientas</h3>
+                    <div class="tech-categories">
+                        <div class="tech-category">
+                            <h4>Stack usado</h4>
+                            <div class="tech-icons">
+                                <div class="tech-icon">
+                                    <i class="fab fa-html5"></i>
+                                    <span>HTML5</span>
+                                </div>
+                                <div class="tech-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                    <span>CSS3</span>
+                                </div>
+                                <div class="tech-icon">
+                                    <i class="fab fa-js-square"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="tech-icon">
+                                    <i class="fab fa-java"></i>
+                                    <span>Java</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech-category">
+                            <h4>Herramientas</h4>
+                            <div class="tech-icons">
+                                <div class="tech-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                    <span>Git</span>
+                                </div>
+                                <div class="tech-icon">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                </div>
+                                <div class="tech-icon">
+                                    <i class="fas fa-code"></i>
+                                    <span>VS Code</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to action -->
+                <div class="projects-cta">
+                    <h3>¿Interesado en colaborar?</h3>
+                    <p>Estoy siempre abierto a nuevos proyectos y oportunidades de aprendizaje.</p>
+                    <div class="cta-buttons">
+                        <a href="contacto.html" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Contactar
+                        </a>
+                        <a href="https://github.com/gonzalobelloso" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-github"></i> Ver más en GitHub
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Gonzalo Belloso. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/gonzalo-belloso-sanchez/" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/GonzaloBS01" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:gonzalo.belloso.01@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

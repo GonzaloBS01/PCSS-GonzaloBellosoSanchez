@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Gonzalo Belloso - Desarrollador Web</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importación de Google Fonts para tipografía profesional -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Iconos de Font Awesome para elementos visuales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header con información personal principal -->
+    <header class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Foto de perfil profesional -->
+                <div class="profile-image">
+                    <img src="./images/FotoCarnet.jpg" alt="Gonzalo Belloso - Desarrollador Web" id="profile-pic">
+                </div>
+                <!-- Información principal del candidato -->
+                <div class="hero-text">
+                    <h1 class="main-title">Gonzalo Belloso</h1>
+                    <h2 class="subtitle">Desarrollador Web en proceso de ser Full Stack</h2>
+                    <p class="hero-description">
+                        Estudiante de 2º DAW.
+                    </p>
+                    <!-- Botones de acción principales -->
+                    <div class="hero-buttons">
+                        <a href="contacto.html" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Contactar
+                        </a>
+                        <a href="proyectos.html" class="btn btn-secondary">
+                            <i class="fas fa-code"></i> Ver Proyectos
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegación principal con pestañas -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-tabs">
+                <li><a href="index.html" class="nav-link active">
+                    <i class="fas fa-user"></i> Sobre Mí
+                </a></li>
+                <li><a href="experiencia.html" class="nav-link">
+                    <i class="fas fa-briefcase"></i> Experiencia
+                </a></li>
+                <li><a href="educacion.html" class="nav-link">
+                    <i class="fas fa-graduation-cap"></i> Educación
+                </a></li>
+                <li><a href="proyectos.html" class="nav-link">
+                    <i class="fas fa-project-diagram"></i> Proyectos
+                </a></li>
+                <li><a href="contacto.html" class="nav-link">
+                    <i class="fas fa-phone"></i> Contacto
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal con secciones -->
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- Sección Sobre Mí -->
+            <section id="sobre-mi" class="content-section active">
+                <div class="section-header">
+                    <h2 class="section-title">Sobre Mí</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Soy estudiante de segundo año del Ciclo Superior de Desarrollo de Aplicaciones Web (DAW), 
+                            con formación en diseño de interfaces web centrado en proyectos 
+                            como Kátodo Ciberjoyería, donde combino creatividad y funcionalidad.
+                        </p>
+                        <p>
+                            Ahora estoy ampliando mis habilidades hacia el desarrollo Full Stack,
+                            aprendiendo tecnologías como Node.js, Express y bases de datos SQL y NoSQL.
+                        </p>
+                    </div>
+                    <!-- Datos personales en tarjetas -->
+                    <div class="personal-info">
+                        <div class="info-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Ubicación</h4>
+                            <p>España</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-calendar-alt"></i>
+                            <h4>Edad</h4>
+                            <p>23 años</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-language"></i>
+                            <h4>Idiomas</h4>
+                            <p>Español (Nativo), Inglés (B1)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Habilidades -->
+            <section id="habilidades" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">Habilidades Técnicas</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="skills-container">
+                    <!-- Frontend Skills -->
+                    <div class="skills-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-skill="90"></div>
+                            </div>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-skill="85"></div>
+                            </div>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-skill="75"></div>
+                            </div>
+                            <span class="skill-percentage">40%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Angular</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-skill="88"></div>
+                            </div>
+                            <span class="skill-percentage">25%</span>
+                        </div>
+                    </div>
+
+                    <!-- Herramientas y Tecnologías -->
+                    <div class="skills-category">
+                        <h3>Herramientas</h3>
+                        <div class="tools-grid">
+                            <div class="tool-item">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-code"></i>
+                                <span>VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Gonzalo Belloso. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/gonzalo-belloso-sanchez/" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/GonzaloBS01" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:gonzalo.belloso.01@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
