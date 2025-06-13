@@ -1936,9 +1936,36 @@ body {
     line-height: 1.6;
 }
 
-/* Responsive para certificaciones */
-@media (max-width: 768px) {
-    .achievements-grid {
+/* Responsive para educación */
+@media (max-width: 1024px) {
+    .education-grid {
         grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+    .education-card.featured {
+        grid-column: span 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .education-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+        max-width: 100%;
+    }
+    .modules-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+    }
+}
+
+@media (max-width: 480px) {
+    .education-card,
+    .education-card.featured {
+        padding: var(--spacing-md);
+    }
+    .modules-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xs);
     }
 }
